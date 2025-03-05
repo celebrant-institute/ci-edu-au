@@ -18,13 +18,12 @@
   /* Typography */
   --font-sans: "Inter", sans-serif;
   --font-display: "Familjen Grotesk", sans-serif;
-  /* Colors */
-/* Base colors */
+  /* Colors *//* Base colors */
 --color-chalk: #ffffff;
 --color-white: #f5f5f5;
 --color-black: #171717;
 
-/* Accent colors (based on #cc3a14 - your primary terracotta) */
+/* Accent colors (based on #cc3a14 - terracotta) */
 --color-accent-50: #fef6f3;
 --color-accent-100: #fde8e2;
 --color-accent-200: #fbcfc0;
@@ -37,18 +36,18 @@
 --color-accent-900: #7a2410;
 --color-accent-950: #420f06;
 
-/* Zinc colors (based on #062580 - your royal blue) */
---color-zinc-50: #f5f7fc;
---color-zinc-100: #ebeffa;
---color-zinc-200: #d3dcf5;
---color-zinc-300: #b0c0ed;
---color-zinc-400: #859be1;
---color-zinc-500: #5e75d3;
---color-zinc-600: #4255c1;
---color-zinc-700: #3546a5;
---color-zinc-800: #2d3882;
---color-zinc-900: #062580;
---color-zinc-950: #071c55;
+/* Zinc colors (based on #040040 - navy) */
+--color-zinc-50: #f5f5fa;
+--color-zinc-100: #ebebf5;
+--color-zinc-200: #d1d1e8;
+--color-zinc-300: #a9a9d6;
+--color-zinc-400: #7e7ec0;
+--color-zinc-500: #5858a3;
+--color-zinc-600: #3c3c84;
+--color-zinc-700: #2c2c6a;
+--color-zinc-800: #1d1d50;
+--color-zinc-900: #0e0e36;
+--color-zinc-950: #040040;
 
 }
 
