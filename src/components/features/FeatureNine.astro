@@ -1,0 +1,66 @@
+
+---
+const features = [
+  {
+    title: "Industry-leading training",
+    description:
+      "Benefit from world-class training by active celebrants who understand what today's couples want and need. Our comprehensive curriculum ensures you master both legal requirements and the art of creating beautiful ceremonies.",
+  },
+  {
+    title: "No irrelevant content",
+    description:
+      "Rest assured that everything you learn is directly applicable to your future career. Our course is crafted specifically for the modern celebrant—no filler, no fluff, just what you need to excel.",
+  },
+  {
+    title: "Open pathway to success",
+    description:
+      "Our teaching approach is built on transparency and proven methods. We openly share the strategies that have helped hundreds of celebrants build thriving practices throughout Australia.",
+  },
+  {
+    title: "Student-centred learning",
+    description:
+      "We empower you to develop your unique celebrant style while ensuring you have all the technical skills required. Your personality is your greatest asset—we'll help you showcase it.",
+  },
+];
+---
+
+<section>
+  <div class="max-w-7xl px-8 md:px-12 lg:px-32 mx-auto py-12 lg:py-32">
+    <div>
+      <p
+        class="text-4xl tracking-tight font-medium text-black md:text-5xl font-display">
+        Transform couples' wedding days with your gift.<br/>
+        <span class=" text-accent-500">
+          The best celebrants do more than show up — they create magic moments that last a lifetime
+        </span>
+      </p>
+    </div>
+
+    <ul
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-12 gap-8 list-none"
+      role="list">
+      {
+        features.map((feature) => (
+          <li>
+            <p class="font-display text-xl leading-7 tracking-tight text-black">
+              {feature.title}
+            </p>
+            <p class="text-sm text-zinc-500 mt-4">{feature.description}</p>
+          </li>
+        ))
+      }
+    </ul>
+
+    <div class="max-w-7xl mx-auto pb-12">
+      <div
+        class="relative items-center w-full mt-12 lg:mt-24 rounded-2xl bg-white overflow-hidden"
+        style="">
+        <img
+          class="w-full rounded-lg object-cover"
+          src="/assets/pana.svg"
+          alt=""
+        />
+      </div>
+    </div>
+  </div>
+</section>
